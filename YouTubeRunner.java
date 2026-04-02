@@ -1,16 +1,14 @@
 class YouTubeRunner{
-	
-	public static void main(String[]args)
-	{
-		System.out.println("-------First time method Call--------");
-		String user1 =YouTube.validateAndRegister(8430988576l,"gow@gmail.com","20-02-2004","user1","gowtham_20");
-		System.out.println(user1);
+	public static void main(String []search){
+		YouTube tube =new YouTube();
+		String msg=tube.search("LoveMockTail","Krishna");
+		System.out.println(msg);
 		
-		System.out.println("-------Second time method Call--------");
-		String user2 =YouTube.validateAndRegister(8497988576l,"Dhanu@gmail.com","15-07-2004","user2","Dhanu_15");
-		System.out.println(user2);
+		boolean login=tube.login("Dhanu","Ngm@123");
+		System.out.println(login);
 		
+		String result = tube.login("dhanu.30@gmail.com","Ngm@123","Suga32");
+		System.out.println(login);
 	}
-
 
 }

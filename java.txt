@@ -1,0 +1,48 @@
+1.what is java?
+java is a object oriented,interpreted, high level programming language.
+
+2.Explain java execution?
+java files saved with classname.java
+runs in command prompt with javac classname.java this part is called execution part.
+and java classname this part is called compilation part.
+This is how java iss executed.
+
+3.what is datatype?and explain types of datatyps
+Data type is used to know the what type of value declared in the variable.
+types of data types are:
+1.primitive datatype
+int=56; 
+boolean=true or false;
+double=864.09;
+long=9987534537f;
+
+2.Non-primitive datatype
+String="name of product";
+
+4.what is variable? explain types of variable
+variable is a container to  store datavalues.
+types of variable are:
+1.parameterized variable
+
+2.static variable
+it is declared outside a method using static keyword.
+3.instance variable
+it is declared inside method and outside the parameters
+4.local variable
+it is declared anywhere in class
+
+4.what is an array?
+An array is a collection of the elements with the datatypes.
+ 
+5.explain method?what is type of methods
+method is an block statements and performs specific task.
+type of methods are:
+method with parameters and with returntype.
+method without parameter and without returntype.
+mrthod without returntype and with parameter.
+method with returntype and without parameters.  
+
+6.what is constructors?
+constructor is special type metod to call the object.
+
+
